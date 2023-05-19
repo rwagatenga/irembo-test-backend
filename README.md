@@ -20,3 +20,26 @@ cp .env.example .env
 ```
 npm run start
 ```
+
+### System Structure
+
+- Controller
+  - AuthController
+  - UserController
+- Services
+  - PasswordService
+  - UserService
+  - AuthService
+  - ActivityService
+- models
+  - user
+  - ActivityLog
+- Routers
+  - user
+  - auth
+- utils
+- middleware
+- enums
+- errors
+
+- app
